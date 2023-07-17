@@ -88,6 +88,7 @@ default_sim_params = {
     "use_flatcache": True,
     "enable_scene_query_support": False,
     "enable_cameras": False,
+    "disable_contact_processing": False,
     "default_physics_material": default_physics_material
 }
 
@@ -97,7 +98,7 @@ default_actor_options = {
     # If an attribute value is not explicitly authored in USD, add one with the value given here,
     # which overrides the USD default.
     "override_usd_defaults": False,
-    "fixed_base": -1,
+    "make_kinematic": -1,
     "enable_self_collisions": -1,
     "enable_gyroscopic_forces": -1,
     "solver_position_iteration_count": -1,
